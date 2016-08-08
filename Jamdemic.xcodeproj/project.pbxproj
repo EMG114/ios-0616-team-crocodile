@@ -7,16 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		07A07CCC1D553A9200FF554B /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A07CCB1D553A9200FF554B /* Secrets.swift */; };
 		C99E23FE8884C695C0F15292 /* Pods_Jamdemic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF4F7CDAAA23EF60705D56B4 /* Pods_Jamdemic.framework */; };
 		C9EDBEDA1D53D08F0033BBAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9EDBED91D53D08F0033BBAD /* AppDelegate.swift */; };
 		C9EDBEDC1D53D08F0033BBAD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9EDBEDB1D53D08F0033BBAD /* ViewController.swift */; };
 		C9EDBEDF1D53D08F0033BBAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9EDBEDD1D53D08F0033BBAD /* Main.storyboard */; };
 		C9EDBEE11D53D08F0033BBAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9EDBEE01D53D08F0033BBAD /* Assets.xcassets */; };
 		C9EDBEE41D53D08F0033BBAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9EDBEE21D53D08F0033BBAD /* LaunchScreen.storyboard */; };
-		C9EDBEEC1D53D14F0033BBAD /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9EDBEEB1D53D14F0033BBAD /* Secrets.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		07A07CCB1D553A9200FF554B /* Secrets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Secrets.swift; path = ../../../../Downloads/Secrets.swift; sourceTree = "<group>"; };
 		AFBE045B881113EC55CEC497 /* Pods-Jamdemic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jamdemic.release.xcconfig"; path = "Pods/Target Support Files/Pods-Jamdemic/Pods-Jamdemic.release.xcconfig"; sourceTree = "<group>"; };
 		B3A0DE937D12D59AD0A68825 /* Pods-Jamdemic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jamdemic.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Jamdemic/Pods-Jamdemic.debug.xcconfig"; sourceTree = "<group>"; };
 		C9EDBED61D53D08F0033BBAD /* Jamdemic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jamdemic.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -26,7 +27,6 @@
 		C9EDBEE01D53D08F0033BBAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C9EDBEE31D53D08F0033BBAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C9EDBEE51D53D08F0033BBAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C9EDBEEB1D53D14F0033BBAD /* Secrets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Secrets.swift; sourceTree = "<group>"; };
 		CF4F7CDAAA23EF60705D56B4 /* Pods_Jamdemic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Jamdemic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -78,7 +78,7 @@
 				C9EDBEE01D53D08F0033BBAD /* Assets.xcassets */,
 				C9EDBEE21D53D08F0033BBAD /* LaunchScreen.storyboard */,
 				C9EDBEE51D53D08F0033BBAD /* Info.plist */,
-				C9EDBEEB1D53D14F0033BBAD /* Secrets.swift */,
+				07A07CCB1D553A9200FF554B /* Secrets.swift */,
 			);
 			path = Jamdemic;
 			sourceTree = "<group>";
@@ -98,12 +98,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C9EDBEE81D53D08F0033BBAD /* Build configuration list for PBXNativeTarget "Jamdemic" */;
 			buildPhases = (
-				F53FFB970E0378C32C2ABBA1 /* 📦 Check Pods Manifest.lock */,
+				F53FFB970E0378C32C2ABBA1 /* [CP] Check Pods Manifest.lock */,
 				C9EDBED21D53D08F0033BBAD /* Sources */,
 				C9EDBED31D53D08F0033BBAD /* Frameworks */,
 				C9EDBED41D53D08F0033BBAD /* Resources */,
-				CA718003CA84C975520CCB99 /* 📦 Embed Pods Frameworks */,
-				7F5879B305776BD7D9FA16AD /* 📦 Copy Pods Resources */,
+				CA718003CA84C975520CCB99 /* [CP] Embed Pods Frameworks */,
+				7F5879B305776BD7D9FA16AD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -161,14 +161,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		7F5879B305776BD7D9FA16AD /* 📦 Copy Pods Resources */ = {
+		7F5879B305776BD7D9FA16AD /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -176,14 +176,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Jamdemic/Pods-Jamdemic-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		CA718003CA84C975520CCB99 /* 📦 Embed Pods Frameworks */ = {
+		CA718003CA84C975520CCB99 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -191,14 +191,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Jamdemic/Pods-Jamdemic-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F53FFB970E0378C32C2ABBA1 /* 📦 Check Pods Manifest.lock */ = {
+		F53FFB970E0378C32C2ABBA1 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -214,7 +214,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9EDBEDC1D53D08F0033BBAD /* ViewController.swift in Sources */,
-				C9EDBEEC1D53D14F0033BBAD /* Secrets.swift in Sources */,
+				07A07CCC1D553A9200FF554B /* Secrets.swift in Sources */,
 				C9EDBEDA1D53D08F0033BBAD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
